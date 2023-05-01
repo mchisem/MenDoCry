@@ -42,21 +42,20 @@
 }
 /* About Section */
 #about {
-    /* background-image: url(background\ color.jpg); */
     width: 100%;
     height: auto;
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: flex;
     padding-top: 10%;
     padding-bottom: 8%;
     border-top: 1px solid #D0CCC1;
     border-bottom: 1px solid #D0CCC1;
 }
 #about .float-start {
-    float: left!important;
+    /* float: left!important; */
     width: auto;
     height: 70vh;
     display: inline;
-    float: left!important;
     margin-left: 15%;
     padding-right: 4%;
 }
@@ -93,7 +92,7 @@
     margin-bottom: 5%;
     text-transform: uppercase;
     font-size: 100px;
-    display: flex;
+    /* display: flex; */
 }
 #maya-pic, #louis-pic {
     height: 60vh;
