@@ -42,7 +42,7 @@
 }
 /* About Section */
 #about {
-    background-image: url(background\ color.jpg);
+    /* background-image: url(background\ color.jpg); */
     width: 100%;
     height: auto;
     display: inline-flex;
