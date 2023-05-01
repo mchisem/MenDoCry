@@ -1,0 +1,158 @@
+* {
+    background-color: black !important;
+    color: #D0CCC1 !important;
+    font-family: 'Anton', sans-serif;
+}
+#navbar {
+    padding: 2%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    margin-bottom: auto;
+    width: 100%;
+    background-color: black !important;
+    border-bottom: 1px solid  #D0CCC1;
+}
+.btn {
+    color: black !important;
+    background-color: #D0CCC1 !important;
+    border: #D0CCC1 !important;
+    border-radius: 0% !important;
+}
+/* header */
+#header {
+    position: relative;
+    padding: .5%;
+    text-align: center;
+    background-color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#header h1 {
+    font: bolder !important;
+    font-weight: 500;
+    font-size: 130px;
+    text-transform: uppercase !important;
+}
+.header-divider-bottom {
+    border-top: 1px solid  #D0CCC1;
+    margin: 40px 0;
+    margin-bottom: 80px;
+}
+/* About Section */
+#about {
+    /* background-image: url("/Images/background\ version3.jpg"); */
+    /* background-image: url(/Video/Men\ Do\ Cry\ Trim.mp4); */
+    background: url(/Video/Men\ Do\ Cry\ Trim.mp4) repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    border-top: 1px solid #D0CCC1;
+    border-bottom: 1px solid #D0CCC1;
+}
+#about .float-start {
+    float: left!important;
+    width: auto;
+    height: 70vh;
+    display: inline;
+    float: left!important;
+    margin-left: 15%;
+    padding-right: 4%;
+}
+#about img, svg {
+    vertical-align: middle;
+    background: transparent !important;
+}
+#about h1 {
+    background-color: transparent !important;
+    margin-bottom: 50px !important;
+    font-weight: 700;
+    font-size: 55px;
+    text-transform: uppercase;
+    padding-right: 15%;
+    color: #FFFFEF !important;
+}
+#about p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-right: 40%;
+    background-color: transparent !important;
+    color: #FFFFEF !important;
+}
+#about p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+/* The Creators */
+#maya, #louis {
+    padding: 10% 20% 3% 20%;
+}
+#maya h1, #louis h1 {
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 100px;
+    display: flex;
+}
+#maya-pic, #louis-pic {
+    height: 60vh;
+    display: inline-flex;
+}
+#maya-pic {
+    margin-left: 6%;
+    margin-bottom: 6%;
+}
+#louis-pic {
+    margin-right: 6%;
+    margin-bottom: 7%;
+}
+#maya p, #louis p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: small;
+    font-weight: 100;
+}
+#louis {
+    border-bottom: 1px solid #D0CCC1;
+}
+/* participate */
+#participate{
+    text-align: center !important;
+    justify-content: center !important;
+    color: #D0CCC1;
+    text-transform: uppercase;
+    background-color: black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#participate h1 {
+    font-size: 100px;
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-block;
+    text-align: center;
+}
+#participate button {
+    outline: #D0CCC1 !important;
+    background-color: #D0CCC1 !important;
+    padding: .5% 3% .5% 3%;
+}
+#participate a {
+    background: #D0CCC1 !important;
+    background-color: #D0CCC1 !important;
+    color: black !important;
+    font-size: 30px;
+    text-transform: uppercase;
+}
