@@ -43,13 +43,7 @@
 /* About Section */
 #about {
     /* background-image: url("/Images/background\ version3.jpg"); */
-    /* background-image: url(/Video/Men\ Do\ Cry\ Trim.mp4); */
-    background: url(/Video/Men\ Do\ Cry\ Trim.mp4) repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+    background-image: url(/Images/background\ color.jpg);
     width: 100%;
     height: auto;
     display: inline-flex;
